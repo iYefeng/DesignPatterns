@@ -5,11 +5,17 @@
  *    Author: yefeng
  * Create on: Oct 3, 2016
  **/
-#include "Singleton.h"
+
+#include "Factory.h"
+#include "Product.h"
 
 int main(int argc, char *argv[])
 {
-    Singleton& test = Singleton::instance();
-    test.execute();
-    return 0;
+  Factory *fac = new ConcreteFactory();
+  BaseProduct* p = fac->createProduct();
+  p->execute();
+  delete p;
+  delete fac;
+  
+  return 0;
 }
