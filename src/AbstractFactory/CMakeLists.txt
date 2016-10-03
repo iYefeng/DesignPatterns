@@ -1,0 +1,3 @@
+
+add_executable(abstractfactory_test abstractfactory_test.cc AbstractFactory.cc Product.cc)
+target_link_libraries(abstractfactory_test)

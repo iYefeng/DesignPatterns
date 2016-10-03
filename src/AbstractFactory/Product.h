@@ -19,31 +19,40 @@ class BaseProduct
 public:
   virtual ~BaseProduct() = 0;
   virtual void execute() = 0;
+
 protected:
   BaseProduct() {}
+
+private:
+
 };
 
-template<int Type=0>
+template<char* Type, int Version=0>
 class Product : public BaseProduct
 {
 public:
-  Product(int type=Type) : type_(type) {}
+  Product();
   ~Product() {}
   void execute();
 
 protected:
 
 private:
-  int type_;
-
+  string type_;
+  int version_;
 };
 
-// 模板类成员函数的定义不能在源文件中，因为模板类的成员函数的定义，是一种不完整的定义
-// 编译器不知道模板参数的具体类型，无法为其成员函数生成代码，只能定义在头文件中
-template<int Type>
-void Product<Type>::execute()
+template<char* Type, int Version>
+Product<Type, Version>::Product() : 
+  type_(Type), 
+  version_(Version)
 {
-  cout << "Product type=" << type_ << endl;
+}
+
+template<char* Type, int Version>
+void Product<Type, Version>::execute()
+{
+  cout << "Product type=" << type_ << " version=" << version_ << endl;
 }
 
 #endif // PRODUCT_H_
