@@ -15,8 +15,8 @@
 
 #include <string>
 #include <iostream>
+#include <vector>
 #include <stdlib.h>
-#include <boost/bimap.hpp>
 
 using namespace std;
 
@@ -60,7 +60,7 @@ public:
 protected:
 
 private:
-  typedef boost::bimap<BaseProduct*, int> Parts;
+  typedef vector<BaseProduct*> Parts;
   Parts parts_;
 };
 
