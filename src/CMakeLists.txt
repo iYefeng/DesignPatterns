@@ -5,4 +5,5 @@ add_subdirectory(AbstractFactory)
 add_subdirectory(Builder)
 add_subdirectory(Prototype)
 add_subdirectory(Bridge)
+add_subdirectory(Adapter)
 
