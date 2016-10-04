@@ -4,12 +4,9 @@
  * 
  * Author        : yefeng
  * Email         : yefeng38083120@126.com
- * Create time   : 2016-10-04 13:47
- * Last modified : 2016-10-04 13:47
- * Filename      : Product.cc
+ * Create time   : 2016-10-04 12:54
+ * Last modified : 2016-10-04 13:37
+ * Filename      : builder_test.cc
  * Description   : 
  * *********************************************************/
 
-#include "Product.h"
-
-BaseProduct::~BaseProduct() {}

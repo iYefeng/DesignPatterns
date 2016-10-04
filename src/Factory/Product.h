@@ -1,10 +1,14 @@
-/** 
+/************************************************************
  * Use of this source code is governed by a BSD-style license
  * that can be found in the License file.
- *  
- *    Author: yefeng
- * Create on: Oct 3, 2016
- **/
+ * 
+ * Author        : yefeng
+ * Email         : yefeng38083120@126.com
+ * Create time   : 2016-10-04 13:47
+ * Last modified : 2016-10-04 13:47
+ * Filename      : Product.h
+ * Description   : 
+ * *********************************************************/
 
 #ifndef PRODUCT_H_
 # define PRODUCT_H_

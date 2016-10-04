@@ -4,12 +4,10 @@
  * 
  * Author        : yefeng
  * Email         : yefeng38083120@126.com
- * Create time   : 2016-10-04 13:47
- * Last modified : 2016-10-04 13:47
+ * Create time   : 2016-10-04 12:42
+ * Last modified : 2016-10-04 13:37
  * Filename      : Product.cc
  * Description   : 
  * *********************************************************/
 
-#include "Product.h"
 
-BaseProduct::~BaseProduct() {}
