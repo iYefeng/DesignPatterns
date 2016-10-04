@@ -27,7 +27,7 @@ Product::~Product()
 
 void Product::add(BaseProduct* part)
 {
-  parts_.insert(Parts::value_type(part, parts_.size() + 1));
+  parts_.insert(Parts::value_type(part, parts_.size()));
 }
 
 void Product::remove(BaseProduct* part)
