@@ -10,3 +10,48 @@
  * Description   : 
  * *********************************************************/
 
+#include "Builder.h"
+
+CarBuilder::~CarBuilder() {}
+
+BenzBuilder::BenzBuilder()
+  : benz_(new BenzCar())
+{
+}
+
+BenzBuilder::~BenzBuilder()
+{
+  delete benz_;
+}
+
+void BenzBuilder::setSequence(vector<string>& seq) 
+{
+  benz_->setSequence(seq);
+}
+
+Car& BenzBuilder::getCar() 
+{
+  return *benz_;
+}
+
+BMWBuilder::BMWBuilder()
+  : bmw_(new BMWCar)
+{
+}
+
+BMWBuilder::~BMWBuilder()
+{
+  delete bmw_;
+}
+
+void BMWBuilder::setSequence(vector<string>& seq)
+{
+  bmw_->setSequence(seq);
+}
+
+Car& BMWBuilder::getCar()
+{
+  return *bmw_;
+}
+
+

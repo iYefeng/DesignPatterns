@@ -10,3 +10,24 @@
  * Description   : 
  * *********************************************************/
 
+#include "Director.h"
+
+int main(int argc, char* argv[])
+{
+  Director director;
+  
+  for (size_t i = 0; i < 10; ++i) {
+    director.getBenzA().run();
+  }
+  for (size_t i = 0; i < 10; ++i) {
+    director.getBenzB().run();
+  }
+  for (size_t i = 0; i < 10; ++i) {
+    director.getBMWA().run();
+  }
+  for (size_t i = 0; i < 10; ++i) {
+    director.getBMWB().run();
+  }
+
+  return 0;
+}
