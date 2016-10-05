@@ -8,4 +8,5 @@ add_subdirectory(Bridge)
 add_subdirectory(Adapter)
 add_subdirectory(Decorator)
 add_subdirectory(Composite)
+add_subdirectory(Flyweight)
 
