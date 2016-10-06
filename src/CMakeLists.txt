@@ -10,4 +10,5 @@ add_subdirectory(Decorator)
 add_subdirectory(Composite)
 add_subdirectory(Flyweight)
 add_subdirectory(Facade)
+add_subdirectory(Proxy)
 

@@ -1,0 +1,6 @@
+
+add_executable(virtual_proxy_test virtual_proxy_test.cc Image.cc)
+target_link_libraries(virtual_proxy_test)
+
+add_executable(protection_proxy_test protection_proxy_test.cc)
+target_link_libraries(protection_proxy_test)
