@@ -13,4 +13,5 @@ add_subdirectory(Facade)
 add_subdirectory(Proxy)
 add_subdirectory(Template)
 add_subdirectory(Strategy)
+add_subdirectory(State)
 
