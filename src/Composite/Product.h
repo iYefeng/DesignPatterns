@@ -36,8 +36,8 @@ public:
 
 protected:
   BaseProduct(string name)
-    : name_(name),
-      price_(0)
+    : price_(0),
+      name_(name)
   {}
 
 
