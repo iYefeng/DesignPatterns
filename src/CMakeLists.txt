@@ -15,4 +15,5 @@ add_subdirectory(Template)
 add_subdirectory(Strategy)
 add_subdirectory(State)
 add_subdirectory(Observer)
+add_subdirectory(Command)
 
