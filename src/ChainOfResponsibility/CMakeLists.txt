@@ -1,0 +1,3 @@
+
+add_executable(chainofresponsibility_test chainofresponsibility_test.cc)
+target_link_libraries(chainofresponsibility_test)
