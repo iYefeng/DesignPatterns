@@ -19,4 +19,5 @@ add_subdirectory(Command)
 add_subdirectory(Interpreter)
 add_subdirectory(Iterator)
 add_subdirectory(Visitor)
+add_subdirectory(Memento)
 
