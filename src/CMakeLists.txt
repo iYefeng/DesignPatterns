@@ -21,4 +21,5 @@ add_subdirectory(Iterator)
 add_subdirectory(Visitor)
 add_subdirectory(Memento)
 add_subdirectory(ChainOfResponsibility)
+add_subdirectory(Mediator)
 
